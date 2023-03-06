@@ -17,9 +17,9 @@ const Testimoni = () => {
             <AiFillStar style={{ height: '20px', width: '20px', color: '#feef5c'}}/>
             <AiFillStar style={{ height: '20px', width: '20px', color: '#feef5c'}}/>
           </span>
-          <div className='w-full flex justify-between items-center p-5 mt-10'>
+          <div className='w-full flex-col md:flex-row flex justify-between items-center p-5 mt-10'>
             {/* 1 */}
-            <div className='w-[30%] bg-blue-100 p-3 rounded-md skew-y-3 h-[320px]'>
+            <div className='w-full mb-10 md:w-[30%] bg-blue-100 p-3 rounded-md skew-y-3 h-[400px]'>
               <ImQuotesLeft style={{ height: '30px', width: '30px'}}/>
               <p className='my-5 -skew-y-3'>
                 Sangat puas dengan pelatihan tentang sunat yang saya ikuti di sini. 
@@ -42,7 +42,7 @@ const Testimoni = () => {
               </div>
             </div>
              {/* 2 */}
-             <div className='w-[30%] bg-blue-100 p-3 rounded-md -skew-y-3 h-[320px]'>
+             <div className='w-full mb-10 md:w-[30%] bg-blue-100 p-3 rounded-md -skew-y-3 h-[400px]'>
               <ImQuotesLeft style={{ height: '30px', width: '30px'}}/>
               <p className='my-5 skew-y-3'>
                 Pelatihan tentang sunat yang saya ikuti di sini sangat informatif 
@@ -65,7 +65,7 @@ const Testimoni = () => {
               </div>
             </div>
              {/* 3 */}
-             <div className='w-[30%] bg-blue-100 p-3 rounded-md skew-y-3 h-[320px]'>
+             <div className='w-full md:w-[30%] bg-blue-100 p-3 rounded-md skew-y-3 h-[400px]'>
               <ImQuotesLeft style={{ height: '30px', width: '30px'}}/>
               <p className='my-5 -skew-y-3'>
                 Pelatihan tentang sunat yang saya ikuti di sini sangat profesional dan 
