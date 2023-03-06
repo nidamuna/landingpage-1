@@ -26,7 +26,7 @@ const Fasilitas = () => {
               ✔ Akses Materi selamanya
             </p>
             <p className='mt-2 font-semibold'>
-              ✔ Sertifikat
+              ✔ Sertifikat Penyelesaian
             </p>
           </div>
           <div className='w-[50%] bg-red-200 ml-11 p-5'>

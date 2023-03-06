@@ -18,12 +18,12 @@ const Herosection = () => {
                   bidang kesehatan
                 </span>
               </p>
-              <button className='bg-[#6136ff] rounded-full text-white font-semibold p-2 shadow-md mt-5 w-full'>
+              <button className='bg-[#6136ff] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md mt-5 w-full'>
                 Daftar Sekarang
               </button>
               <div className='mt-5 flex flex-row px-6 items-center justify-center text-[12px]'>
-                <p className='mr-10'>✔ Full access to all course</p>
-                <p>✔ Good Instructor</p>
+                <p className='mr-10'>✔ Akses Materi selamanya</p>
+                <p>✔ Instruktur terbaik</p>
               </div>
             </div>
           </div>
