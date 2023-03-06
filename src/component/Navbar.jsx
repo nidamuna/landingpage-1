@@ -1,9 +1,10 @@
 import React from 'react'
 
 const Navbar = () => {
+
   return (
     <>
-        <nav className='w-full bg-white h-auto py-4 px-8 flex justify-between items-center shadow-lg'>
+        <nav className='w-full bg-white h-auto py-4 px-8 flex justify-between items-center'>
             <span className='bg-blue-500 p-2 text-white'>
                 Logo Pelatihan
             </span>
