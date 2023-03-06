@@ -1,4 +1,5 @@
 import React from 'react'
+import {IoCutOutline} from 'react-icons/io5'
 
 const Pelatihansection = () => {
   return (
@@ -26,6 +27,11 @@ const Pelatihansection = () => {
                   <li className='mb-3 last:mb-0'>Kesehatan seksual</li>
                 </ol>
               </div>
+                <div className='flex w-full justify-end pr-[19%] -mt-[7%]'>
+                  <IoCutOutline 
+                    className='bg-white -rotate-45 rounded-full flex justify-center items-center border-2 p-1 border-[#120036]'
+                    style={{ height: '50px', width: '50px', color: '#120036'}} />
+                </div>
             </div>
           </div>
         </div>
