@@ -3,12 +3,12 @@ import React from 'react'
 const Herosection = () => {
   return (
     <>
-      <section className='w-full bg-blue-200 min-h-screen py-[100px] px-10'>
+      <section className='w-full bg-white min-h-screen py-[160px] px-10'>
         <div className='flex flex-row container mx-auto'>
           {/* Left */}
-          <div className='w-[50%] text-[#212529]'>
+          <div className='w-[50%] text-[#120036]'>
             <h1 className='font-black text-[2.875rem]'>
-              Pelatihan dan Training Kesehatan
+              Pelatihan Sunat Modern
             </h1>
             <div className='bg-[#edf0ff] py-3 px-5 mt-6 rounded-md text-[19px] font-extralight'>
               <p>
