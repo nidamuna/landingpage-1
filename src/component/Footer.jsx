@@ -28,7 +28,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className='w-full bg-[#120036] h-auto pt-10 px-8 flex flex-col justify-between items-center'>
+      <footer id='footer' className='w-full bg-[#120036] h-auto pt-10 px-8 flex flex-col justify-between items-center'>
         <div className='flex flex-col md:flex-row justify-start items-start gap-10 text-white mb-5 cursor-pointer'>
           <div className='w-full md:w-[40%]'>
             <span className='bg-blue-500 p-2 text-white'>

@@ -31,9 +31,11 @@ const Navbar2 = () => {
                     <p>✔ Sertifikat Penyelesaian </p>
                 </div>
            </div>
-           <button className='bg-[#6136ff] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md'>
-                Daftar Sekarang
-            </button>
+           <a href='#daftar'>
+              <button className='bg-[#6136ff] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md'>
+                  Daftar Sekarang
+              </button>
+           </a>
         </section>
     </>
   )

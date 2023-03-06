@@ -3,7 +3,7 @@ import React from 'react'
 const Contactsection = () => {
   return (
     <>
-      <section className='w-full bg-white px-10 flex flex-col justify-center items-center'>
+      <section id="daftar" className='w-full bg-white px-10 flex flex-col justify-center items-center'>
         <div className='bg-[#120036] w-full md:w-[80%] h-full px-5 py-12 rounded-xl flex flex-col justify-center items-center text-white'>
           <h1 className='font-normal text-[25px] md:text-[2.25rem] text-center w-full mb-5'>
             Daftarkan segera dirimu di pelatihan sunat kami

@@ -17,15 +17,17 @@ const Navbar = () => {
             </span>
             <div className='font-bold p-2 text-[#212529]'>
                 <ul className='hidden md:flex flex-row cursor-pointer'>
-                    <li className='mr-10 last:mr-0 hover:text-[#0a58ca] hover:underline'>Tentang Kami</li>
-                    <li className='mr-10 last:mr-0 hover:text-[#0a58ca] hover:underline'>Pelatihan</li>
-                    <li className='mr-10 last:mr-0 hover:text-[#0a58ca] hover:underline'>Fasilitas</li>
-                    <li className='mr-10 last:mr-0 hover:text-[#0a58ca] hover:underline'>Kontak Kami</li>
+                    <li className='mr-10 last:mr-0 hover:text-[#0a58ca] hover:underline'><a href='#hero'>Tentang Kami</a></li>
+                    <li className='mr-10 last:mr-0 hover:text-[#0a58ca] hover:underline'><a href='#materi'>Materi</a></li>
+                    <li className='mr-10 last:mr-0 hover:text-[#0a58ca] hover:underline'><a href='#fasilitas'>Fasilitas</a></li>
+                    <li className='mr-10 last:mr-0 hover:text-[#0a58ca] hover:underline'><a href='#footer'>Kontak Kami</a></li>
                 </ul>
             </div>
-            <button className='hidden md:flex bg-[#6136ff] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md'>
-                Daftar Sekarang
-            </button>
+            <a href='#daftar'>
+                <button className='hidden md:flex bg-[#6136ff] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md'>
+                    Daftar Sekarang
+                </button>
+            </a>
             {/* phone */}
             <div className='flex md:hidden'>
                 <CiMenuKebab 
@@ -42,14 +44,16 @@ const Navbar = () => {
         </nav>
         <div className={navbar ? 'w-full h-auto p-5 bg-white shadow-lg flex flex-col md:hidden' : 'hidden'}>
             <ul className='flex flex-col cursor-pointer'>
-                <li className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'>Tentang Kami</li>
-                <li className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'>Pelatihan</li>
-                <li className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'>Fasilitas</li>
-                <li className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'>Kontak Kami</li>
+                <li onClick={handleNav} className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'><a href='#hero'>Tentang Kami</a></li>
+                <li onClick={handleNav} className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'><a href='#materi'>Materi</a></li>
+                <li onClick={handleNav} className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'><a href='#fasilitas'>Fasilitas</a></li>              
+                <li onClick={handleNav} className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'><a href='#footer'>Kontak Kami</a></li>
             </ul>
-            <button className='mt-8 w-full bg-[#6136ff] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md'>
-                Daftar Sekarang
-            </button>
+            <a href='#daftar'>
+                <button onClick={handleNav} className='mt-8 w-full bg-[#6136ff] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md'>
+                    Daftar Sekarang
+                </button>
+            </a>
         </div>
     </>
   )

@@ -3,7 +3,7 @@ import React from 'react'
 const Herosection = () => {
   return (
     <>
-      <section className='w-full bg-white min-h-screen text-[#120036] pt-[160px] px-10 pb-[100px]'>
+      <section id='hero' className='w-full bg-white min-h-screen text-[#120036] pt-[160px] px-10 pb-[100px]'>
         <div className='flex flex-col-reverse md:flex-row container mx-auto'>
           {/* Left */}
           <div className='w-full md:w-[50%] text-[#120036]'>
@@ -19,9 +19,11 @@ const Herosection = () => {
                   bidang sunat modern
                 </strongs>
               </p>
-              <button className='bg-[#6136ff] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md mt-5 w-full'>
-                Daftar Sekarang
-              </button>
+              <a href='#daftar'>
+                <button className='bg-[#6136ff] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md mt-5 w-full'>
+                  Daftar Sekarang
+                </button>
+              </a>
               <div className='mt-5 flex flex-row px-6 items-center justify-center text-[12px]'>
                 <p className='mr-10'>✔ Akses Materi selamanya</p>
                 <p>✔ Instruktur terbaik</p>
