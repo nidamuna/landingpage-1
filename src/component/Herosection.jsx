@@ -4,9 +4,9 @@ const Herosection = () => {
   return (
     <>
       <section className='w-full bg-white min-h-screen text-[#120036] pt-[160px] px-10 pb-[100px]'>
-        <div className='flex flex-row container mx-auto'>
+        <div className='flex flex-col-reverse md:flex-row container mx-auto'>
           {/* Left */}
-          <div className='w-[50%] text-[#120036]'>
+          <div className='w-full md:w-[50%] text-[#120036]'>
             <h1 className='font-black text-[2.875rem]'>
               Pelatihan Sunat Modern
             </h1>
@@ -28,12 +28,12 @@ const Herosection = () => {
             </div>
           </div>
           {/* Right */}
-          <div className='w-[50%] text-[#212529] ml-11 bg-red-100'>
+          <div className='w-full md:w-[50%] text-[#212529] ml-0 md:ml-11 bg-red-100 mb-10 md:mb-0'>
             foto atau video pelatihan atau foto instruktur
           </div>
         </div>
         <div className='text-center mt-20 text-[16px] font-light leading-5 flex flex-col justify-center items-center'>
-          <p className='w-[70%] max-w-[1000px]'>
+          <p className='w-full md:w-[70%] max-w-[1000px]'>
             Pelatihan sunat adalah program pelatihan yang dirancang untuk memberikan 
             pengetahuan, keterampilan, dan pemahaman tentang teknik sunat yang benar dan aman. 
             Tujuan utama dari pelatihan sunat adalah untuk meningkatkan kualitas 
