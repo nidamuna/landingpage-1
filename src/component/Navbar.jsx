@@ -15,7 +15,7 @@ const Navbar = () => {
                     <li className='mr-10 last:mr-0 hover:text-blue-500 hover:underline'>Contact Us</li>
                 </ul>
             </div>
-            <button className='bg-blue-500 rounded-full text-white font-semibold p-2 shadow-md'>
+            <button className='bg-[#6136ff] rounded-full text-white font-semibold p-2 shadow-md'>
                 Daftar Sekarang
             </button>
         </nav>
