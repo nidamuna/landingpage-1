@@ -37,8 +37,8 @@ const Herosection = () => {
           <p className='w-full md:w-[70%] max-w-[1000px]'>
             Pelatihan sunat adalah program pelatihan yang dirancang untuk memberikan 
             pengetahuan, keterampilan, dan pemahaman tentang teknik sunat yang benar dan aman. 
-            Tujuan utama dari pelatihan sunat adalah untuk meningkatkan kualitas 
-            dan keselamatan prosedur sunat serta memastikan bahwa praktisi kesehatan 
+            <span className='stabs'>Tujuan utama dari pelatihan sunat adalah untuk meningkatkan kualitas 
+            dan keselamatan prosedur sunat</span> serta memastikan bahwa praktisi kesehatan 
             memiliki pengetahuan dan keterampilan yang cukup dalam melakukan prosedur 
             tersebut. Selain itu, pelatihan sunat juga dapat membantu mengurangi 
             risiko komplikasi dan memberikan manfaat kesehatan yang lebih baik bagi 

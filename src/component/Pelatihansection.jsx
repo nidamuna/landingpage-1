@@ -7,7 +7,10 @@ const Pelatihansection = () => {
       <section className='w-full bg-white min-h-screen py-[100px] px-10'>
         <div className='flex flex-col container mx-auto items-center text-[#120036]'>
           <h1 className='font-black text-[2rem] text-center w-full'>
-            Dapatkan pelatihan terbaik yang sesuai dengan kebutuhanmu
+            Dapatkan 
+            <span className='stabs ml-1'>
+              pelatihan terbaik
+            </span> yang sesuai dengan kebutuhanmu
           </h1>
           <p className='text-center w-full'>
             Pelatihan sunat yang dilengkapi instruktur berpengalaman dan fasilitas lengkap

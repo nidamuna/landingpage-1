@@ -7,7 +7,9 @@ const Fasilitas = () => {
         <div className='container mx-auto flex flex-col md:flex-row items-center justify-start text-[#120036]'>
           <div className='w-full mb-10 md:w-[50%]'>
             <h1 className='font-black text-[2rem] w-full mb-5'>
-              Fasilitas yang kami berikan
+              <span className='stabs'>
+                Fasilitas
+              </span> yang kami berikan
             </h1>
             <p className='font-normal italic'>
               Tidak hanya instruktur yang memadai tapi kami juga memberikan

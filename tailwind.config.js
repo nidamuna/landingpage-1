@@ -16,7 +16,7 @@ module.exports = {
       // => @media (min-width: 1024px) { ... }
     },
     backgroundSize: {
-      'colors': '100% 0.5rem',
+      'colors': '100% 30%',
     }
   },
   plugins: [],
