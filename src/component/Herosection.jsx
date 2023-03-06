@@ -3,7 +3,7 @@ import React from 'react'
 const Herosection = () => {
   return (
     <>
-      <section className='w-full bg-white min-h-screen py-[160px] px-10'>
+      <section className='w-full bg-white min-h-screen text-[#120036] pt-[160px] px-10 pb-[100px]'>
         <div className='flex flex-row container mx-auto'>
           {/* Left */}
           <div className='w-[50%] text-[#120036]'>
@@ -31,6 +31,18 @@ const Herosection = () => {
           <div className='w-[50%] text-[#212529] ml-11 bg-red-100'>
             foto atau video pelatihan atau foto instruktur
           </div>
+        </div>
+        <div className='text-center mt-20 text-[16px] font-light leading-5 flex flex-col justify-center items-center'>
+          <p className='w-[70%] max-w-[1000px]'>
+            Pelatihan sunat adalah program pelatihan yang dirancang untuk memberikan 
+            pengetahuan, keterampilan, dan pemahaman tentang teknik sunat yang benar dan aman. 
+            Tujuan utama dari pelatihan sunat adalah untuk meningkatkan kualitas 
+            dan keselamatan prosedur sunat serta memastikan bahwa praktisi kesehatan 
+            memiliki pengetahuan dan keterampilan yang cukup dalam melakukan prosedur 
+            tersebut. Selain itu, pelatihan sunat juga dapat membantu mengurangi 
+            risiko komplikasi dan memberikan manfaat kesehatan yang lebih baik bagi 
+            pasien yang menjalani prosedur sunat.
+          </p>
         </div>
       </section>
     </>

@@ -4,7 +4,7 @@ const Fasilitas = () => {
   return (
     <>
       <section className='w-full bg-white min-h-screen py-[100px] px-10'>
-        <div className='flex flex-row items-center justify-start text-[#120036]'>
+        <div className='container mx-auto flex flex-row items-center justify-start text-[#120036]'>
           <div className='w-[50%]'>
             <h1 className='font-black text-[2rem] w-full mb-5'>
               Fasilitas yang kami berikan
