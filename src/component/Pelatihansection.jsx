@@ -27,7 +27,6 @@ const Pelatihansection = () => {
                 </ol>
               </div>
             </div>
-           
           </div>
         </div>
       </section>
