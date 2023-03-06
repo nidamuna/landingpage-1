@@ -14,9 +14,10 @@ const Herosection = () => {
               <p>
                 Bergabunglah dengan ribuan peserta yang telah memperluas pengetahuan 
                 mereka di 
-                <span className='bg-blue-200 pl-1 pr-2 rounded-md font-semibold ml-1'>
-                  bidang kesehatan
-                </span>
+                <br/>
+                <strongs className='stabs font-semibold'>
+                  bidang sunat modern
+                </strongs>
               </p>
               <button className='bg-[#6136ff] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md mt-5 w-full'>
                 Daftar Sekarang

@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.stabs {
+    @apply bg-[linear-gradient(120deg,#BFDBFE,#BFDBFE)] bg-no-repeat bg-colors bg-[0_88%] font-[inherit];
+  }

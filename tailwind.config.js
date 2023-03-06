@@ -14,6 +14,9 @@ module.exports = {
 
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
+    },
+    backgroundSize: {
+      'colors': '100% 0.5rem',
     }
   },
   plugins: [],
