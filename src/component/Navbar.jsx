@@ -27,18 +27,20 @@ const Navbar = () => {
                 Daftar Sekarang
             </button>
             {/* phone */}
-            <CiMenuKebab 
-                className={navbar ? 'hidden' : 'flex'}
-                onClick={handleNav}
-                style={{ height: '30px', width: '20px', color: '#120036'}}
-            />
-            <IoCloseOutline 
-                className={!navbar ? 'hidden' : 'flex'}
-                onClick={handleNav}
-                style={{ height: '30px', width: '20px', color: '#120036'}}
-            />
+            <div className='flex md:hidden'>
+                <CiMenuKebab 
+                    className={navbar ? 'hidden' : 'flex'}
+                    onClick={handleNav}
+                    style={{ height: '30px', width: '20px', color: '#120036'}}
+                />
+                <IoCloseOutline 
+                    className={!navbar ? 'hidden' : 'flex'}
+                    onClick={handleNav}
+                    style={{ height: '30px', width: '20px', color: '#120036'}}
+                />
+            </div>
         </nav>
-        <div className={navbar ? 'w-full h-auto p-5 bg-white shadow-lg' : 'hidden'}>
+        <div className={navbar ? 'w-full h-auto p-5 bg-white shadow-lg flex flex-col md:hidden' : 'hidden'}>
             <ul className='flex flex-col cursor-pointer'>
                 <li className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'>Tentang Kami</li>
                 <li className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'>Pelatihan</li>
