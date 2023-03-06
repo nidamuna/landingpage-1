@@ -29,8 +29,8 @@ const Footer = () => {
   return (
     <>
       <footer className='w-full bg-[#120036] h-auto pt-10 px-8 flex flex-col justify-between items-center'>
-        <div className='flex justify-start items-start gap-10 text-white mb-5 cursor-pointer'>
-          <div className='w-[40%]'>
+        <div className='flex flex-col md:flex-row justify-start items-start gap-10 text-white mb-5 cursor-pointer'>
+          <div className='w-full md:w-[40%]'>
             <span className='bg-blue-500 p-2 text-white'>
                Logo Pelatihan
             </span>
@@ -43,7 +43,7 @@ const Footer = () => {
               mereka dalam melakukan sunat. 
             </p>
           </div>
-          <div className='w-full flex gap-5 text-white'>
+          <div className='w-full flex flex-col md:flex-row gap-5 text-white'>
             <div>
               <h1 className='font-bold text-[19px]'>
                 Pelatihan
@@ -55,7 +55,7 @@ const Footer = () => {
                 <li className='mt-1 hover:underline'>Pelatihan Skincare</li>
               </ul>
             </div>
-            <div className='ml-20'>
+            <div className='ml-0 mt-5 md:mt-0 md:ml-20'>
               <h1 className='font-bold text-[19px]'>
                 Hubungi Kami
               </h1>
