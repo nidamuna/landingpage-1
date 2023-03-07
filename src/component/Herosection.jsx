@@ -4,7 +4,7 @@ import doctor from '../assets/doctor.png'
 const Herosection = () => {
   return (
     <>
-      <section id='hero' className='w-full bg-white min-h-screen text-[#023047] pt-[160px] px-10 pb-[100px]'>
+      <section id='hero' className='w-full bg-[#8ECAE6] min-h-screen text-[#023047] pt-[160px] px-10 pb-[100px]'>
         <div className='flex flex-col-reverse md:flex-row container mx-auto'>
           {/* Left */}
           <div className='w-full md:w-[50%]'>
