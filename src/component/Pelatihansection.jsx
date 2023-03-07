@@ -4,7 +4,7 @@ import {IoCutOutline} from 'react-icons/io5'
 const Pelatihansection = () => {
   return (
     <>
-      <section id="materi" className='w-full bg-white min-h-screen py-[100px] px-10'>
+      <section id="materi" className='w-full bg-white lg:min-h-0 min-h-screen py-[100px] px-10'>
         <div className='flex flex-col container mx-auto items-center text-[#023047]'>
           <h1 className='font-black text-[2rem] text-center w-full'>
             Dapatkan 
@@ -20,7 +20,7 @@ const Pelatihansection = () => {
               Gambar/video pelatihan
             </div>
             <div className='w-full md:w-[50%] ml-0 md:ml-11 p-4'>
-              <div className='w-full md:w-[70%] ml-0 md:ml-11 bg-blue-100 p-4 rounded-md font-medium'>
+              <div className='w-full md:w-[70%] ml-0 md:ml-11 bg-[#FFB703] p-4 rounded-md font-medium'>
                 <ol className="list-decimal ml-6">
                   <li className='mb-3 last:mb-0'>Anestesi lokal</li>
                   <li className='mb-3 last:mb-0'>Teknik sunat</li>
