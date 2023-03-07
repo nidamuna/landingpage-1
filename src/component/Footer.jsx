@@ -28,8 +28,8 @@ const Footer = () => {
 
   return (
     <>
-      <footer id='footer' className='w-full bg-[#023047] h-auto pt-10 px-8 flex flex-col justify-between items-center'>
-        <div className='flex flex-col md:flex-row justify-start items-start gap-10 text-white mb-5 cursor-pointer'>
+      <footer id='footer' className='w-full bg-[#023047] h-auto pt-[200px] -mt-[100px] px-8 flex flex-col justify-between items-center'>
+        <div className='container mx-auto flex flex-col md:flex-row justify-start items-start gap-10 text-white mb-5 cursor-pointer'>
           <div className='w-full md:w-[40%]'>
             <span className='bg-blue-500 p-2 text-white'>
                Logo Pelatihan
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
           <div className='w-full flex flex-col md:flex-row gap-5 text-white'>
             <div>
-              <h1 className='font-bold text-[19px]'>
+              <h1 className='font-bold text-[19px] text-[#FB8500]'>
                 Pelatihan
               </h1>
               <ul className='mt-5'>
@@ -56,7 +56,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className='ml-0 mt-5 md:mt-0 md:ml-20'>
-              <h1 className='font-bold text-[19px]'>
+              <h1 className='font-bold text-[19px] text-[#FB8500]'>
                 Hubungi Kami
               </h1>
               <div className='mt-5'>
@@ -72,7 +72,7 @@ const Footer = () => {
                         href={link.link}
                       >
                         <link.icon
-                          style={{ height: '20px', width: '20px'}}
+                          style={{ height: '20px', width: '20px', color: '#FB8500'}}
                         />
                       </a>
                     ))}
@@ -81,7 +81,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="pt-[16px] border-t border-[#D4D4D4] w-full mb-5">
+        <div className="container mx-auto pt-[16px] border-t border-[#FB8500] w-full mb-5">
           <p className="text-[14px] leading-[17px] text-white">
               &copy; Copyright 2022
           </p>
