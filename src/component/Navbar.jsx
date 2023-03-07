@@ -10,8 +10,8 @@ const Navbar = () => {
     }
 
   return (
-    <>
-        <nav className='w-full bg-[#8ECAE6] h-[75px] py-4 px-8 flex justify-between items-center'>
+    <div className='bg-[#8ECAE6] w-full'>
+        <div className='container mx-auto w-full h-[75px] py-4 px-8 md:px-0 flex justify-between'>
             <span className='bg-blue-500 p-2 text-white'>
                 Logo Pelatihan
             </span>
@@ -41,7 +41,7 @@ const Navbar = () => {
                     style={{ height: '30px', width: '20px', color: '#120036'}}
                 />
             </div>
-        </nav>
+        </div>
         <div className={navbar ? 'text-[#023047] w-full h-auto p-5 bg-white shadow-lg flex flex-col md:hidden' : 'hidden'}>
             <ul className='flex flex-col cursor-pointer'>
                 <li onClick={handleNav} className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'><a href='#hero'>Tentang Kami</a></li>
@@ -55,7 +55,7 @@ const Navbar = () => {
                 </button>
             </a>
         </div>
-    </>
+    </div>
   )
 }
 

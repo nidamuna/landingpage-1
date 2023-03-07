@@ -35,10 +35,10 @@ function App() {
   const scrollDirection = useScrollDirection();
   return (
     <div>
-      <Navbar/>
       <div className={`sticky top-0 z-30 ${ scrollDirection === "down" ? "hidden" : "flex"}`}>
         <Navbar2/>
       </div>
+      <Navbar/>
       <Herosection/>
       <Pelatihansection/>
       <Testimoni/>
