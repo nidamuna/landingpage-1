@@ -5,9 +5,9 @@ import {ImQuotesLeft} from 'react-icons/im'
 const Testimoni = () => {
   return (
     <>
-      <section className='w-full bg-white min-h-screen py-[100px] px-10'>
-      <div className='flex flex-col container mx-auto items-center text-[#023047]'>
-          <h1 className='font-black text-[2rem] text-center w-full'>
+      <section className='w-full bg-[#219EBC] lg:min-h-0 min-h-screen py-[100px] px-10 -skew-y-3'>
+      <div className='flex flex-col container mx-auto items-center text-[#023047] skew-y-3'>
+          <h1 className='font-black text-[2rem] text-center stabs'>
             Ini yang dikatakan beberapa pengguna
           </h1>
           <span className='flex'>
@@ -19,7 +19,7 @@ const Testimoni = () => {
           </span>
           <div className='w-full flex-col md:flex-row flex justify-between items-center p-5 mt-10'>
             {/* 1 */}
-            <div className='w-full mb-10 md:w-[30%] bg-blue-100 p-3 rounded-md skew-y-3 h-[400px]'>
+            <div className='w-full mb-10 md:w-[30%] bg-[#FFB703] p-3 rounded-md skew-y-3 h-[400px]'>
               <ImQuotesLeft style={{ height: '30px', width: '30px'}}/>
               <p className='my-5 -skew-y-3'>
                 Sangat puas dengan pelatihan tentang sunat yang saya ikuti di sini. 
@@ -29,20 +29,19 @@ const Testimoni = () => {
                 Sangat direkomendasikan!
               </p>
               <div className='flex justify-between items-start -skew-y-3'>
-                <span className='bg-gray-500 w-8 h-8 justify-center items-center flex text-gray-200 rounded-full p-2'>
+                <span className='bg-[#023047] w-8 h-8 justify-center items-center flex text-gray-200 rounded-full p-2'>
                   A
                 </span>
                 <div className='w-full pl-4'>
                   <h1 className='font-bold'>Ahmad</h1>
-                  <span className='flex flex-row items-center'>
-                    5 
-                    <AiFillStar style={{ height: '20px', width: '20px', color: '#feef5c'}}/>
+                  <span className=''>
+                    Perawat 
                   </span>
                 </div>
               </div>
             </div>
              {/* 2 */}
-             <div className='w-full mb-10 md:w-[30%] bg-blue-100 p-3 rounded-md -skew-y-3 h-[400px]'>
+             <div className='w-full mb-10 md:w-[30%] bg-[#FFB703] p-3 rounded-md -skew-y-3 h-[400px]'>
               <ImQuotesLeft style={{ height: '30px', width: '30px'}}/>
               <p className='my-5 skew-y-3'>
                 Pelatihan tentang sunat yang saya ikuti di sini sangat informatif 
@@ -52,20 +51,19 @@ const Testimoni = () => {
                 pelatihan ini. Terima kasih banyak!
               </p>
               <div className='flex justify-between items-start skew-y-3'>
-                <span className='bg-gray-500 w-8 h-8 justify-center items-center flex text-gray-200 rounded-full p-2'>
+                <span className='bg-[#023047] w-8 h-8 justify-center items-center flex text-gray-200 rounded-full p-2'>
                   D
                 </span>
                 <div className='w-full pl-4'>
                   <h1 className='font-bold'>Dwi</h1>
-                  <span className='flex flex-row items-center'>
-                    5 
-                    <AiFillStar style={{ height: '20px', width: '20px', color: '#feef5c'}}/>
+                  <span className=''>
+                    Pemilik Klinik Hati 
                   </span>
                 </div>
               </div>
             </div>
              {/* 3 */}
-             <div className='w-full mb-10 md:w-[30%] bg-blue-100 p-3 rounded-md skew-y-3 h-[400px]'>
+             <div className='w-full mb-10 md:w-[30%] bg-[#FFB703] p-3 rounded-md skew-y-3 h-[400px]'>
               <ImQuotesLeft style={{ height: '30px', width: '30px'}}/>
               <p className='my-5 -skew-y-3'>
                 Pelatihan tentang sunat yang saya ikuti di sini sangat profesional dan 
@@ -74,14 +72,13 @@ const Testimoni = () => {
                 kepada siapa saja yang ingin belajar tentang sunat.
               </p>
               <div className='flex justify-between items-start -skew-y-3'>
-                <span className='bg-gray-500 w-8 h-8 justify-center items-center flex text-gray-200 rounded-full p-2'>
+                <span className='bg-[#023047] w-8 h-8 justify-center items-center flex text-gray-200 rounded-full p-2'>
                   B
                 </span>
                 <div className='w-full pl-4'>
                   <h1 className='font-bold'>Budi</h1>
                   <span className='flex flex-row items-center'>
-                    5 
-                    <AiFillStar style={{ height: '20px', width: '20px', color: '#feef5c'}}/>
+                    Perawat
                   </span>
                 </div>
               </div>
