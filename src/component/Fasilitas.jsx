@@ -4,7 +4,7 @@ const Fasilitas = () => {
   return (
     <>
       <section id='fasilitas' className='w-full bg-white h-auto md:min-h-screen py-[100px] px-10'>
-        <div className='container mx-auto flex flex-col md:flex-row items-center justify-start text-[#120036]'>
+        <div className='container mx-auto flex flex-col md:flex-row items-center justify-start text-[#023047]'>
           <div className='w-full mb-10 md:w-[50%]'>
             <h1 className='font-black text-[2rem] w-full mb-5'>
               <span className='stabs'>

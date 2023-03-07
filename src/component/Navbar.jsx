@@ -15,7 +15,7 @@ const Navbar = () => {
             <span className='bg-blue-500 p-2 text-white'>
                 Logo Pelatihan
             </span>
-            <div className='font-bold p-2 text-[#212529]'>
+            <div className='font-bold p-2 text-[#023047]'>
                 <ul className='hidden md:flex flex-row cursor-pointer'>
                     <li className='mr-10 last:mr-0 hover:text-[#0a58ca] hover:underline'><a href='#hero'>Tentang Kami</a></li>
                     <li className='mr-10 last:mr-0 hover:text-[#0a58ca] hover:underline'><a href='#materi'>Materi</a></li>
@@ -42,7 +42,7 @@ const Navbar = () => {
                 />
             </div>
         </nav>
-        <div className={navbar ? 'w-full h-auto p-5 bg-white shadow-lg flex flex-col md:hidden' : 'hidden'}>
+        <div className={navbar ? 'text-[#023047] w-full h-auto p-5 bg-white shadow-lg flex flex-col md:hidden' : 'hidden'}>
             <ul className='flex flex-col cursor-pointer'>
                 <li onClick={handleNav} className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'><a href='#hero'>Tentang Kami</a></li>
                 <li onClick={handleNav} className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'><a href='#materi'>Materi</a></li>

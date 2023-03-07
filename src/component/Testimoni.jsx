@@ -6,7 +6,7 @@ const Testimoni = () => {
   return (
     <>
       <section className='w-full bg-white min-h-screen py-[100px] px-10'>
-      <div className='flex flex-col container mx-auto items-center text-[#120036]'>
+      <div className='flex flex-col container mx-auto items-center text-[#023047]'>
           <h1 className='font-black text-[2rem] text-center w-full'>
             Ini yang dikatakan beberapa pengguna
           </h1>
@@ -65,7 +65,7 @@ const Testimoni = () => {
               </div>
             </div>
              {/* 3 */}
-             <div className='w-full md:w-[30%] bg-blue-100 p-3 rounded-md skew-y-3 h-[400px]'>
+             <div className='w-full mb-10 md:w-[30%] bg-blue-100 p-3 rounded-md skew-y-3 h-[400px]'>
               <ImQuotesLeft style={{ height: '30px', width: '30px'}}/>
               <p className='my-5 -skew-y-3'>
                 Pelatihan tentang sunat yang saya ikuti di sini sangat profesional dan 

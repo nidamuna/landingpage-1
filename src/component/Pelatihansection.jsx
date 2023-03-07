@@ -5,7 +5,7 @@ const Pelatihansection = () => {
   return (
     <>
       <section id="materi" className='w-full bg-white min-h-screen py-[100px] px-10'>
-        <div className='flex flex-col container mx-auto items-center text-[#120036]'>
+        <div className='flex flex-col container mx-auto items-center text-[#023047]'>
           <h1 className='font-black text-[2rem] text-center w-full'>
             Dapatkan 
             <span className='stabs ml-1'>

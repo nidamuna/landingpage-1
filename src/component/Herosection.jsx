@@ -1,16 +1,17 @@
 import React from 'react'
+import doctor from '../assets/doctor.png'
 
 const Herosection = () => {
   return (
     <>
-      <section id='hero' className='w-full bg-white min-h-screen text-[#120036] pt-[160px] px-10 pb-[100px]'>
+      <section id='hero' className='w-full bg-white min-h-screen text-[#023047] pt-[160px] px-10 pb-[100px]'>
         <div className='flex flex-col-reverse md:flex-row container mx-auto'>
           {/* Left */}
-          <div className='w-full md:w-[50%] text-[#120036]'>
+          <div className='w-full md:w-[50%]'>
             <h1 className='font-black text-[2.875rem]'>
               Pelatihan Sunat Modern
             </h1>
-            <div className='bg-[#edf0ff] py-3 px-5 mt-6 rounded-md text-[19px] font-extralight'>
+            <div className='bg-[#fcfdff] py-3 px-5 mt-6 rounded-md text-[19px] font-extralight'>
               <p>
                 Bergabunglah dengan ribuan peserta yang telah memperluas pengetahuan 
                 mereka di 
@@ -31,8 +32,10 @@ const Herosection = () => {
             </div>
           </div>
           {/* Right */}
-          <div className='w-full md:w-[50%] text-[#212529] ml-0 md:ml-11 bg-red-100 mb-10 md:mb-0'>
-            foto atau video pelatihan atau foto instruktur
+          <div className='w-full md:h-[400px] overflow-hidden md:w-[50%] ml-0 md:ml-11 bg-red-100 mb-10 md:mb-0'>
+            <div className='p-10 rounded-full'>
+              <img src={doctor} alt="doctor" className='h-[500px]' />
+            </div>
           </div>
         </div>
         <div className='text-center mt-20 text-[16px] font-light leading-5 flex flex-col justify-center items-center'>

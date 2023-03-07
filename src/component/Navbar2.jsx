@@ -20,7 +20,7 @@ const Navbar2 = () => {
   
   return (
     <>
-        <section className={navbar ? 'hidden md:flex w-full bg-white h-auto py-4 px-8 justify-between items-start shadow-lg top-0' : 'hidden'}>
+        <section className={navbar ? 'text-[#023047] hidden md:flex w-full bg-white h-auto py-4 px-8 justify-between items-start shadow-lg top-0' : 'hidden'}>
            <div className='flex flex-col'>
                 <h1 className='font-bold'>
                     Siap mengikuti Pelatihan Sunat Moderen ?
