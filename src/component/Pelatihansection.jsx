@@ -1,5 +1,5 @@
 import React from 'react'
-import {IoCutOutline} from 'react-icons/io5'
+import Obat from '../assets/obat.png'
 
 const Pelatihansection = () => {
   return (
@@ -21,7 +21,7 @@ const Pelatihansection = () => {
             </div>
             <div className='w-full md:w-[50%] ml-0 md:ml-11 p-4'>
               <div className='w-full md:w-[70%] ml-0 md:ml-11 bg-[#FFB703] p-4 rounded-md font-medium'>
-                <ol className="list-decimal ml-6">
+                <ol className="list-decimal ml-6 text-white font-semibold">
                   <li className='mb-3 last:mb-0'>Anestesi lokal</li>
                   <li className='mb-3 last:mb-0'>Teknik sunat</li>
                   <li className='mb-3 last:mb-0'>Pencegahan komplikasi</li>
@@ -30,10 +30,8 @@ const Pelatihansection = () => {
                   <li className='mb-3 last:mb-0'>Kesehatan seksual</li>
                 </ol>
               </div>
-                <div className='flex w-full justify-end pr-[5%] md:pr-[19%] -mt-[7%]'>
-                  <IoCutOutline 
-                    className='bg-white -rotate-45 rounded-full flex justify-center items-center border-2 p-1 border-[#120036]'
-                    style={{ height: '50px', width: '50px', color: '#120036'}} />
+                <div className='flex w-full justify-end ml-[15%] md:ml-0 pr-[0%] md:pr-[16%] -mt-[0%] md:-mt-[15%] animate-bounce'>
+                  <img src={Obat} alt='medicine' className='h-[100px]' />
                 </div>
             </div>
           </div>
