@@ -21,7 +21,7 @@ const Herosection = () => {
                 </strongs>
               </p>
               <a href='#daftar'>
-                <button className='bg-[#6136ff] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md mt-5 w-full'>
+                <button className='bg-[#FB8500] hover:bg-[#FFB703] rounded-full text-white font-semibold p-2 shadow-md mt-5 w-full'>
                   Daftar Sekarang
                 </button>
               </a>

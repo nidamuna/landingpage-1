@@ -8,7 +8,7 @@ const Contactsection = () => {
           <h1 className='font-normal text-[25px] md:text-[2.25rem] text-center w-full mb-5'>
             Daftarkan segera dirimu di pelatihan sunat kami
           </h1>
-          <button className='bg-[#6136ff] rounded-full text-white text-[1.25rem] font-semibold p-2 shadow-md mt-8 w-full md:w-[40%] hover:bg-[#0a58ca]'>
+          <button className='bg-[#FB8500] rounded-full text-white text-[1.25rem] font-semibold p-2 shadow-md mt-8 w-full md:w-[40%] hover:bg-[#FFB703]'>
             Hubungi Kami
           </button>
           <div className='mt-10 flex flex-col md:flex-row px-6 items-start md:items-center justify-center text-[12px]'>

@@ -24,7 +24,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <a href='#daftar'>
-                <button className='hidden md:flex bg-[#6136ff] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md'>
+                <button className='hidden md:flex bg-[#FB8500] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md'>
                     Daftar Sekarang
                 </button>
             </a>
@@ -50,7 +50,7 @@ const Navbar = () => {
                 <li onClick={handleNav} className='mb-4 last:mb-0 hover:text-[#0a58ca] hover:underline'><a href='#footer'>Kontak Kami</a></li>
             </ul>
             <a href='#daftar'>
-                <button onClick={handleNav} className='mt-8 w-full bg-[#6136ff] hover:bg-[#0a58ca] rounded-full text-white font-semibold p-2 shadow-md'>
+                <button onClick={handleNav} className='mt-8 w-full bg-[#FB8500] hover:bg-[#FFB703] rounded-full text-white font-semibold p-2 shadow-md'>
                     Daftar Sekarang
                 </button>
             </a>
