@@ -2,7 +2,9 @@ import React from 'react'
 import Obat from '../assets/obat.png'
 import picture1 from '../assets/photo1.jpg'
 import picture2 from '../assets/photo2.jpg'
-import picture3 from '../assets/photo3.jpg'
+import picture3 from '../assets/photo3.jpg' 
+//jika ingin menambahkan foto lain taruh foto di folder assets di src
+//panggil disini dengan cara import (picture...) from '../assets/nama gambar
 
 const Pelatihansection = () => {
   return (
@@ -34,6 +36,10 @@ const Pelatihansection = () => {
               </div>
           </div>
           <div className='w-full p-5 grid grid-cols-4 gap-5'>
+            {/* menambahkan foto kegiatan 
+                panggil foto yang telah diimport disini dengan coding
+                <img src={nama yg diimport tadi} alt='keterangan' />
+            */}
               <img src={picture1} alt='pelatihan' />
               <img src={picture2} alt='pelatihan' />
               <img src={picture3} alt='pelatihan' />
