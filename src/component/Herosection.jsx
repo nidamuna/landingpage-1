@@ -38,11 +38,11 @@ const Herosection = () => {
           </div>
         </div>
       </section>
-      <div className='bg-white text-center pt-20 text-[16px] font-light leading-5 flex flex-col justify-center items-center'>
+      <div className='bg-white text-center pt-20 text-[16px] font-normal leading-5 flex flex-col justify-center items-center'>
           <p className='w-full max-w-[1000px]'>
             Pelatihan sunat adalah program pelatihan yang dirancang untuk memberikan 
             pengetahuan, keterampilan, dan pemahaman tentang teknik sunat yang benar dan aman. 
-            <span className='stabs'>Tujuan utama dari pelatihan sunat adalah untuk meningkatkan kualitas 
+            <span className='stabs font-bold'>Tujuan utama dari pelatihan sunat adalah untuk meningkatkan kualitas 
             dan keselamatan prosedur sunat</span> serta memastikan bahwa praktisi kesehatan 
             memiliki pengetahuan dan keterampilan yang cukup dalam melakukan prosedur 
             tersebut. Selain itu, pelatihan sunat juga dapat membantu mengurangi 

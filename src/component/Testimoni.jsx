@@ -41,16 +41,16 @@ const Testimoni = () => {
               </div>
             </div>
              {/* 2 */}
-             <div className='w-full mb-10 md:w-[30%] bg-[#FFB703] p-3 rounded-md skew-y-3 md:skew-y-3 h-[400px]'>
+             <div className='w-full mb-10 md:w-[30%] bg-[#FFB703] p-3 rounded-md skew-y-3 md:-skew-y-3 h-[400px]'>
               <ImQuotesLeft style={{ height: '30px', width: '30px'}}/>
-              <p className='my-5 -skew-y-3'>
+              <p className='my-5 -skew-y-3 md:skew-y-3'>
                 Pelatihan tentang sunat yang saya ikuti di sini sangat informatif 
                 dan membantu. Instruktur sangat ramah dan membantu menjawab semua 
                 pertanyaan saya tentang prosedur sunat. Saya merasa lebih percaya 
                 diri dan siap untuk melaksanakan prosedur sunat setelah mengikuti 
                 pelatihan ini. Terima kasih banyak!
               </p>
-              <div className='flex justify-between items-start -skew-y-3'>
+              <div className='flex justify-between items-start -skew-y-3 md:skew-y-3'>
                 <span className='bg-[#023047] w-8 h-8 justify-center items-center flex text-gray-200 rounded-full p-2'>
                   D
                 </span>

@@ -6,6 +6,7 @@ import Testimoni from "./component/Testimoni";
 import Fasilitas from "./component/Fasilitas";
 import Contactsection from "./component/Contactsection";
 import Footer from "./component/Footer";
+import Instructor from "./component/Instructor";
 import { useEffect, useState } from "react";
 
 function useScrollDirection() {
@@ -41,6 +42,7 @@ function App() {
       <Navbar/>
       <Herosection/>
       <Pelatihansection/>
+      <Instructor/>
       <Testimoni/>
       <Fasilitas/>
       <Contactsection/>

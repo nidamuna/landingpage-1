@@ -1,4 +1,6 @@
 import React from 'react'
+import Sertif from '../assets/sertif.png'
+import Medical from '../assets/medical.png'
 
 const Fasilitas = () => {
   return (
@@ -31,8 +33,10 @@ const Fasilitas = () => {
               ✔ Sertifikat Penyelesaian
             </p>
           </div>
-          <div className='w-full md:w-[50%] bg-red-200 ml-0 md:ml-11 p-5'>
-              ilustrasi/foto/video
+          <div className='flex w-full md:w-[50%] h-[300px] ml-0 md:ml-11'>
+              <img src={Sertif} alt='sertifikat' className='z-30 w-[100px] h-[100px] mt-[200px] ml-[100px] animate-bounce' />
+              <img src={Medical} alt='sertifikat' className='w-[500px] -ml-[200px] -mt-[100px]' />
+
           </div>
         </div>
       </section>
